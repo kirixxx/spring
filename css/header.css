@@ -17,9 +17,13 @@
     display: flex;
     flex-direction: row;
     gap: 0;
+
+    .header__nav-item:nth-child(6) .dropdown__menu-list {
+        right: 0;
+    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
     .header__nav-list {
         display: none;
     }
@@ -49,8 +53,14 @@
     height: 48px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
     .header__burger {
         display: flex;
+    }
+
+    .header__logo-icon {
+        width: 200px;
+        height: 37px;
+        padding: 0;
     }
 }
