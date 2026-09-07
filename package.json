@@ -1,0 +1,26 @@
+{
+  "name": "spring",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kirixxx/spring#readme",
+  "bugs": {
+    "url": "https://github.com/kirixxx/spring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirixxx/spring.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/css": "^2.0.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  }
+}

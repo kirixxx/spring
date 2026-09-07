@@ -1,6 +1,10 @@
 .header {
     width: 100%;
-    padding: 5px 0;
+    padding: 2px 0;
+
+    .container {
+        padding: 0 0 0 10px;
+    }
 }
 
 .header__wrapper {
@@ -23,7 +27,7 @@
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1070px) {
     .header__nav-list {
         display: none;
     }
@@ -47,13 +51,14 @@
 
 .header__burger {
     display: none;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
+    margin: -2px 0;
 }
 
-@media (max-width: 1060px) {
+.header__burger:hover {
+    background-color: var(--color-btn-gray);
+}
+
+@media (max-width: 1070px) {
     .header__burger {
         display: flex;
     }

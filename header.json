@@ -1,0 +1,141 @@
+[
+    {
+        "title": "Why Spring",
+        "items": [
+            {
+                "subtitle": "",
+                "items": [
+                    "Overview"
+                ]
+            },
+            {
+                "subtitle": "Trending",
+                "items": [
+                    "Generative AI",
+                    "Cloud"
+                ]
+            },
+            {
+                "subtitle": "Architecture Patterns",
+                "items": [
+                    "Microservices",
+                    "Event Driven"
+                ]
+            },
+            {
+                "subtitle": "Application Types",
+                "items": [
+                    "Web Applications",
+                    "Serverless",
+                    "Batch"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Learn",
+        "items": [
+            {
+                "subtitle": "Getting Started",
+                "items": [
+                    "Quickstart",
+                    "Guides"
+                ]
+            },
+            {
+                "subtitle": "Academy",
+                "items": [
+                    "Courses",
+                    "Get Certified"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Projects",
+        "items": [
+            {
+                "subtitle": "",
+                "items": [
+                    "Overview"
+                ]
+            },
+            {
+                "subtitle": "Projects",
+                "items": [
+                    "Spring Boot",
+                    "Spring Framework",
+                    "Spring Cloud",
+                    "Spring AI",
+                    "Spring Integration",
+                    "Spring Batch",
+                    "Spring Security"
+                ]
+            },
+            {
+                "subtitle": "Foundational Projects",
+                "items": [
+                    "Micrometer",
+                    "Reactor"
+                ]
+            },
+            {
+                "subtitle": "Development Tools",
+                "items": [
+                    "Spring Tools",
+                    "Spring Initializr"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Resources",
+        "items": [
+            {
+                "subtitle": "",
+                "items": [
+                    "Blog",
+                    "Release Calendar",
+                    "Version Mappings",
+                    "Release Highlights",
+                    "Security Advisories"
+                ]
+            },
+            {
+                "subtitle": "GitHub Orgs",
+                "items": [
+                    "Spring Projects",
+                    "Spring Cloud"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Community",
+        "items": [
+            {
+                "subtitle": "",
+                "items": [
+                    "Overview",
+                    "Events",
+                    "Authors"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Enterprise",
+        "items": [
+            {
+                "subtitle": "",
+                "items": [
+                    "Overview",
+                    "Long-term Support",
+                    "Automated Upgrades",
+                    "Governance and Compliance",
+                    "Modern App Development"
+                ]
+            }
+        ]
+    }
+]  
