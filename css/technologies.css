@@ -46,6 +46,11 @@
     box-shadow: 0 10px 20px 0 rgba(108, 135, 135, .2);
 }
 
+.technologies__card:focus-visible {
+    outline: none;
+    border: 1px solid var(--color-menu-hover);
+}
+
 .technologies__card-upper {
     display: flex;
     flex-direction: row;

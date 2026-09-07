@@ -1,0 +1,60 @@
+.hamburger-react {
+    cursor: pointer;
+    height: 48px;
+    position: relative;
+    z-index: 15;
+    transition: 0.4s cubic-bezier(0, 0, 0, 1);
+    user-select: none;
+    width: 48px;
+    outline: none;
+    transform: none;
+
+    .h-1 {
+        background: currentcolor;
+        height: 2px;
+        left: 12px;
+        position: absolute;
+        width: 24px;
+        top: 16px;
+        transition: 0.4s cubic-bezier(0, 0, 0, 1);
+        transform: none;
+    }
+
+    .h-2 {
+        background: currentcolor;
+        height: 2px;
+        left: 12px;
+        position: absolute;
+        width: 24px;
+        top: 23px;
+        transition: 0.4s cubic-bezier(0, 0, 0, 1);
+        transform: none;
+    }
+
+    .h-3 {
+        background: currentcolor;
+        height: 2px;
+        left: 12px;
+        position: absolute;
+        width: 24px;
+        top: 30px;
+        transition: 0.4s cubic-bezier(0, 0, 0, 1);
+        transform: none;
+    }
+}
+
+.hamburger-react.is-open {
+    color: var(--bg-white);
+
+    .h-1 {
+        transform: rotate(-45deg) translate(-4.93px, 4.93px);
+    }
+
+    .h-2 {
+        transform: scaleX(0);
+    }
+
+    .h-3 {
+        transform: rotate(45deg) translate(-4.93px, -4.93px);
+    }
+}
