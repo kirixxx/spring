@@ -1,0 +1,23 @@
+.custom-input {
+    display: flex;
+    margin: 0 0 20px 0;
+    padding: 0 12px;
+
+    .custom-input__field {
+        border: 1px solid #d9e9e9;
+        padding: 10px 15px;
+        border-radius: 6px;
+        width: 400px;
+        font-family: "Metropolis";
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    .custom-input__field:hover {
+        border-color: var(--color-menu-hover);
+    }
+
+    .custom-input__field:focus-visible {
+        outline: 1px solid var(--color-menu-hover);
+    }
+}
